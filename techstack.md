@@ -3,12 +3,14 @@
 ## Tech Stack
 adamdjbrett/aila.li is built on the following main stack:
 
+
 Full tech stack [here](/techstack.md)
 --- Readme.md Snippet without images End ---
 
 --- Readme.md Snippet with images Start ---
 ## Tech Stack
 adamdjbrett/aila.li is built on the following main stack:
+
 
 Full tech stack [here](/techstack.md)
 --- Readme.md Snippet with images End ---
@@ -18,7 +20,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [adamdjbrett/aila.li](https://github.com/adamdjbrett/aila.li)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|1<br/>Tools used|11/10/23 <br/>Report generated|
+|1<br/>Tools used|11/15/23 <br/>Report generated|
 |------|------|
 </div>
 
