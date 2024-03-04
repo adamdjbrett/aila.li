@@ -1,4 +1,4 @@
-## [Quick short link shortner for AILA](https://link.aila.ngo)
+## [Quick short link shortner for WHI](https://photos.warhorseindustrial.com)
 
 ## This solution
 
