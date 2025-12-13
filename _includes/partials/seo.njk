@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<title>{{ title or site.title }}</title>
+<meta name="description" content="{{description or site.description}}">
+<link rel="icon" href="{{site.favicon}}" />
+<link rel="apple-touch-icon" href="{{site.favicon}}">
+<meta property="og:title" content="{{title or site.title}}"/>
+<meta property="og:image" content="{{image or site.image}}"/>
+<meta property="og:url" content="{{site.baseUrl}}{{page.url}}"/>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="{{title or site.title}}"/>
+<meta property="og:description" content="{{description or site.description}}"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{title or site.title}}" />
+<meta name="twitter:image" content="{{image or site.image}}" />
+<meta name="twitter:url" content="{{site.baseUrl}}{{page.url}}" />
+<meta name="twitter:description" content="{{description or site.description}}" />
+<link rel="canonical" href="{{site.baseUrl}}{{page.url}}">
+<link rel="alternate" type="application/rss+xml" title="Simple.css" href="{{site.baseUrl}}/feed/feed.xml">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="{{site.baseUrl}}/sitemap.xml" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/assets/css/simple.min.css">

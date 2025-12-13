@@ -1,0 +1,7 @@
+<header>
+<nav>
+{% for n in site.navbar.item %}<a href="{{n.url}}" class="{% if page.url == n.url %}current{% endif %}">{{n.nav}}</a>{% endfor %}
+</nav>
+<h1>{{title or site.title}}</h1>
+<p>{{description or site.description}}</p>
+</header>

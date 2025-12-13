@@ -1,0 +1,37 @@
+{
+  "title": "Permanent URL Sites",
+  "description": "A linkshortner and collection of useful links and resources.",
+  "baseUrl": "https://aila.li",
+  "favicon": "/favicon.ico",
+  "image": "made-with-11ty.gif",
+  "navbar": {
+    "item": [
+      {
+        "nav": "Home",
+        "url": "/"
+      },
+      {
+        "nav": "About",
+        "url": "/about/"
+      },
+      {
+        "nav": "Contact",
+        "url": "/pages/contact/"
+      },
+      {
+        "nav": "Links",
+        "url": "/links/"
+      }
+    ]
+  },
+  "footer": {
+    "info": [
+      {
+        "text": "aila.li was created by <a href='https://adamdjbrett.com'>Adam DJ Brett</a> based on the genius of <a href='https://github.com/nhoizey'>@Nhoizey</a> and <a href='https://github.com/philhawksworth'>@philhawksworth</a>. Built with <a href='https://11ty.dev'> 🎈 11ty</a>"
+      },
+      {
+        "text": "CC BY-NC 4.0."
+      }
+    ]
+  }
+}

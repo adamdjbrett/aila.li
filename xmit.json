@@ -1,0 +1,9 @@
+{
+  "forms": [
+    {
+      "from": "/pages/contact",
+      "to": "adam@adamdjbrett.com",
+      "then": "/pages/thank-you/"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "eleventy-shortlinks-svg",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve --port=8080"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-navigation": "^1.0.4",
+    "qrcode": "^1.5.4"
+  },
+  "dependencies": {}
+}

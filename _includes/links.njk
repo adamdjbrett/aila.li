@@ -1,0 +1,17 @@
+---
+layout: base.njk
+---
+{{content|safe}}
+<ul style="list-style-type: none;">
+{% set sorted = collections.shortlinks | sort(attribute='fileSlug') %}
+{% for link in sorted %}
+  <li style="margin-bottom:2rem;">
+    <details>
+  <summary><strong><!--Slug:--> {{ link.fileSlug }}</strong></summary>
+    <div style="margin:0.5rem 0;">
+      {% qrCodeImg site.baseUrl ~ '/' ~ link.fileSlug ~ '/', link.fileSlug %}
+    <p><a href="/{{ link.fileSlug }}/">Go to shortlink</a></p>
+	</details>
+  </li>
+{% endfor %}
+</ul>

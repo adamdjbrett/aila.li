@@ -1,0 +1,39 @@
+{#
+  Displays all shortlinks in /urls/ in alphabetical order.
+  Each parent is the filename (slug), each child is a QR code for that slug.
+#}
+<ul>
+{% set sorted = collections.shortlinks | sort(attribute='fileSlug') %}
+{% for link in sorted %}
+  <li>
+    <details>
+      <summary>{{ link.fileSlug }}</summary>
+      <button onclick="showQR('{{ link.fileSlug }}')">Show QR</button>
+      <div id="qr-{{ link.fileSlug }}" style="display:none;">
+        {% qrCodeImg site.baseUrl ~ '/' ~ link.fileSlug ~ '/', link.fileSlug %}
+      </div>
+    </details>
+  </li>
+{% endfor %}
+</ul>
+<script>
+function showQR(slug) {
+  var el = document.getElementById('qr-' + slug);
+  if (el.style.display === 'none') {
+    el.style.display = 'block';
+    // Set size for SVG
+    var svg = el.querySelector('svg');
+    if(svg) {
+      svg.setAttribute('width', '150px');
+      svg.setAttribute('height', '150px');
+    }
+    var img = el.querySelector('img');
+    if(img) {
+      img.setAttribute('width', '150px');
+      img.setAttribute('height', '150px');
+    }
+  } else {
+    el.style.display = 'none';
+  }
+}
+</script>

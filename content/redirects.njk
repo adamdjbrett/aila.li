@@ -1,0 +1,13 @@
+---
+permalink: "/_redirects"
+eleventyExcludeFromCollections: true
+---
+
+{% for link in collections.shortlinks %}
+# Main shortlink
+/{{ link.fileSlug }}    {{ link.data.url }}
+# QR convenience redirects
+/{{ link.fileSlug }}/qr     /{{ link.fileSlug }}/qr.svg    302
+/{{ link.fileSlug }}/qr/    /{{ link.fileSlug }}/qr.svg    302
+
+{% endfor %}
