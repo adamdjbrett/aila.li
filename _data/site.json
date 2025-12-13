@@ -12,7 +12,7 @@
       },
       {
         "nav": "About",
-        "url": "/about/"
+        "url": "/pages/about/"
       },
       {
         "nav": "Contact",
@@ -20,7 +20,7 @@
       },
       {
         "nav": "Links",
-        "url": "/links/"
+        "url": "/pages/links/"
       }
     ]
   },
