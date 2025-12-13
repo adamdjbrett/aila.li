@@ -36,8 +36,7 @@ thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-package-lock.json
-yarn.lock
+
 .env
 .env.*
 .env.example
