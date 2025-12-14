@@ -3,7 +3,7 @@
   "description": "A linkshortner and collection of useful links and resources.",
   "baseUrl": "https://aila.li",
   "favicon": "/favicon.ico",
-  "image": "made-with-11ty.gif",
+  "image": "/favicon.png",
   "navbar": {
     "item": [
       {
