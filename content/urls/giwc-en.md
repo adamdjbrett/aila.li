@@ -1,4 +1,4 @@
 ---
 title: giwc-en
-url: https://docs.google.com/document/d/1nfPTm4YbMSX4l1ddU3JxdhzoOVmc0UXcE-6P2xWsB-4/edit?usp=sharing
+url: https://docs.google.com/document/d/1lRwA7RvVytwS1rWrqwmX2m_ujSs4DPk_H74iaTpSL3U/edit?usp=sharing
 ---
