@@ -7,9 +7,14 @@
     "start": "npx @11ty/eleventy --serve --port=8080"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy": "^3.1.6",
     "@11ty/eleventy-navigation": "^1.0.4",
     "qrcode": "^1.5.4"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "engines": {
+    "node": ">=24",
+    "npm": ">=11.14.0"
+  },
+  "packageManager": "npm@11.14.0"
 }
