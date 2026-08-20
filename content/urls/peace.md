@@ -1,4 +1,4 @@
 ---
 title: peace
-url: https://aila.ngo/side-event-the-creators-game-peace-friendship-diplomacy/
+url: https://aila.ngo/side-event-the-creators-game-peace-friendship-and-diplomacy/
 ---
